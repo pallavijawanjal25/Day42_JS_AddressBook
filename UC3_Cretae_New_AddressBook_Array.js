@@ -76,7 +76,7 @@ function AddContact(firstName,lastName,address,city,state,zip,phoneNumber,Email)
         console.error(ex);
     }
 }
-AddContact("Pallavi","J","Bangalore","Bangalore","Karnataka","560027","91 9945007207","pallavijaw@gmail.com");
+AddContact("Pallavi","Jaw","Bangalore","Bangalore","Karnataka","560027","91 9945007207","pallavijaw@gmail.com");
 
 AddContact("Suhas","Machi","Bangalore","Bangalore","Karnataka","560027","91 7760054592","suhasmanchi25@gmail.com");
 contactsArray.forEach(contactsDetails => console.log(contactsDetails.toString()));
