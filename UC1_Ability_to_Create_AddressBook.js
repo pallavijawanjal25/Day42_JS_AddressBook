@@ -23,5 +23,5 @@ class Contact{
             return ("Name: "+this.firstName+this.lastName+" Address: "+this.address+"City: "+this.city+"State: "+this.state+"Zip Code: "+this.zip+" Mobile: "+this.phoneNumber+ " EMail: "+this.eMail);
         }
 }
-let contactObj = new Contact("Pallavi","J","Bangalore","Bangalore","Karnataka",560027,9945007207,"pallavijawanjal@gmail.com");
+let contactObj = new Contact("Pallavi","Jaw","Bangalore","Bangalore","Karnataka",560027,9945007207,"pallavijaw@gmail.com");
 console.log(contactObj.toString());
